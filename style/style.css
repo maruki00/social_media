@@ -1,0 +1,160 @@
+/*
+	auteur : abdellah oulahyane
+	licence : free
+	website : adrar
+*/
+.header{ width: 100%; margin: 0 auto ; height: 65px;}
+.menu {  height: 50px ; float: right;}
+.menu ul{  }
+.menu ul li{ float: right; margin-left: 5px; padding: 10px ; list-style: none;}
+.menu ul li a{ text-decoration: none; color: #fff ; border: 2px solid #fff ; padding: 5px ; border-radius: 5px ;}
+.menu ul li a:hover { background: rgba(233, 54, 255, 0.7); color: #000000; }
+.logo { float: left; height: 50px; margin-top: 12px ;}
+.logo a { color: #fff ; padding: 7px; text-decoration: none; margin-top: 2px ; border: 2px solid #fff ;}
+.logo a:hover {
+    color: #000; padding: 7px; text-decoration: none;
+    margin-top: 3px; border: 2px solid rgba(16, 16, 16, 0.97); background: rgba(187, 54, 158, 0.68);
+}
+.re{ width: 60% ; margin:0 auto; clear: both; margin-top: 22px ;}
+.re h2{ text-align: center; border-bottom: 2px solid #ddd ;  }
+.re form { background:rgba(255, 143, 231, 0.38) ;  width: 40% ; margin: 0 auto; padding: 20px ;}
+.log{ width: 60% ; margin:0 auto; clear: both; margin-top: 22px ;}
+.log h2{ text-align: center; border-bottom: 2px solid #ddd ;  }
+.log form { background:rgba(255, 143, 231, 0.38) ;  width: 40% ; margin: 0 auto; padding: 20px ;}
+.log input[type='submit']{ border-radius: 10px; text-align: center; padding: 10px ; background: #a738ff; color: #fff; border: none; margin-right: 50%; margin-left: 50%; margin-top: 15px;
+    margin-left: 72px;   }
+.form_group{ width: 80% ; margin: 0 auto ; padding: 15px ; margin-bottom: 30px; }
+
+.form_group input{ background-color: rgba(169, 169, 169, 0.55); border: 1px solid #a836ff ; border-radius: 10px; padding: 10px; width:  100% ; margin: 0 auto ; float: left; text-align: left; font-size: 17px ; color: #050406 ;}
+.form_group input:hover {
+    background: #fff ; color: #a836ff;}
+ }
+.re input[type='submit']{ text-align: center; padding: 10px ; background: #a738ff; color: #fff; border: none; margin-right: 50%; margin-left: 50%; margin-top: 15px;
+    margin-left: 72px;  border-radius: 35px ;  }
+.footer {
+    background: rgba(0, 0, 0, 0.48);
+    padding: 1px;
+    color: white;
+    text-align: center;
+    margin-top: 80%;
+}
+.error {
+    margin: 3px;
+    padding: 0;
+    width: 30%;
+    height: 20px;
+    background: rgba(255, 54, 54, 0.33);
+    text-align: center;
+
+}
+
+.succ {
+    margin: 3px;
+    padding: 0;
+    width: 30%;
+    height: 20px;
+    background: rgba(255, 54, 54, 0.33);
+    text-align: center;
+
+}
+
+#menu-nav {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* navigation bar */
+#navigation-bar {width:100%;}
+#navigation-bar ul {margin:0; padding:0; list-style:none; width:100%; border-radius:4px; overflow:hidden;}
+#navigation-bar li {float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 16%;}
+#navigation-bar a {
+  color:#848484; font-size:20px; text-decoration:none; text-align:center;
+  width:100%;
+  padding:20px 0;
+  display:block; position:relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {color:#ac3bff;}
+ #navigation-bar li:first-child a {border-radius:4px 0 0 4px;}
+#navigation-bar li:last-child a {border-radius:0 4px 4px 0;}  
+#navigation-bar a:before {
+  content:'';
+  transition:all .4s ease-in-out;
+  position:absolute; right:50%; left:50%; bottom:0;
+  display:block;
+  height:2px;
+  background-color:#ac3bff;
+} 
+#navigation-bar li:hover a:before, #navigation-bar a:hover:before {right:0; left:0;}
+#navigation-bar span {display:block;}
+
+.info{
+  width: 60%;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    direction: rtl;
+}
+
+
+
+
+.member{
+width: 60%;
+height: 250px;
+}
+.info{
+			float: left;
+			width: 30%;
+			background-color: yellow;
+			height: 600px;
+		}
+		.news{
+			float: right;
+			width: 70%;
+			background-color: green;
+			height: 600px;
+		}
+.image{
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  background-color: black;
+}
+.imgper{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.data{
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0,0,100,255);
+}
+.news dl dt{
+  direction: ltr;
+  text-align: left;
+}
+.postarea{
+  width: 60%;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+
